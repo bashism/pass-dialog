@@ -24,4 +24,4 @@ if [ $(echo $matches | wc -w) -eq 1 ]; then
 	pass show "${pass_password}" -c
 fi
 
-unset PASSWORD_STORE_DIR pass_text password_input matches no_prefix pass_password
+unset PASSWORD_STORE_DIR pass_text password_input password_path password_name matches no_prefix pass_password
